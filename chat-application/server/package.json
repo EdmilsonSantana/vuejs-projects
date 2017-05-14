@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The server for the realtime chat application",
+  "main": "index.js",
+  "author": "Edmilson Santana <edmilsonmgsantana@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.1"
+  }
+}
